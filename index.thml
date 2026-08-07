@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kim Chi Shop</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#000;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:linear-gradient(135deg,#000,#222,#000);
+text-align:center;
+}
+
+h1{
+font-size:55px;
+color:gold;
+animation:glow 2s infinite;
+}
+
+@keyframes glow{
+0%{text-shadow:0 0 10px gold;}
+50%{text-shadow:0 0 30px orange;}
+100%{text-shadow:0 0 10px gold;}
+}
+
+p{
+font-size:20px;
+margin:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:gold;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+transform:scale(1.1);
+}
+
+section{
+padding:60px 20px;
+text-align:center;
+}
+
+.card{
+background:#111;
+padding:20px;
+border-radius:20px;
+width:320px;
+margin:auto;
+box-shadow:0 0 20px gold;
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+}
+
+.price{
+font-size:30px;
+color:gold;
+margin:15px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#111;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>សូមស្វាគមន៍</h1>
+
+<p>មកកាន់ហាងលក់ គិម ឈី</p>
+
+<a href="#product" class="btn">មើលផលិតផល</a>
+
+</header>
+
+<section id="product">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1604908176997-431f2f2d6b31?w=600" alt="Kimchi">
+
+<h2>គិម ឈី</h2>
+
+<p>
+រសជាតិឆ្ងាញ់ ស្អាត មានគុណភាព
+</p>
+
+<div class="price">
+10,000៛ / 15,000៛
+</div>
+
+<p>
+ម្ចាស់កម្មសិទ្ធិ<br>
+<b>Kan Visal</b>
+</p>
+
+<p>
+📞 090443460
+</p>
+
+<p>
+Telegram<br>
+@kanvisal77777
+</p>
+
+<a class="btn" href="https://t.me/kanvisal77777">
+បញ្ជាទិញ
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Kim Chi Shop | Kan Visal
+
+</footer>
+
+</body>
+</html>
